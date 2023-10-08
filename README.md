@@ -1,18 +1,6 @@
 # taf-mobile-de
 Website https://www.mobile.de/ Testing API 
-1. Send a GET request https://www.mobile.de/ Check the response Status code = 200
-
-2. On the website, select any car manually and send a request
-POST https://suchen.mobile.de/fahrzeuge/svc/my/parkings/id_car
-Body 
-{ 
-    "adId": "значение_id_машины", 
-    "ref": null, 
-    "refId": null 
-} 
-Checking the answer
-Status Code = 201
-Check that adId= id_car
+Checking the get request on the resource home page www.mobile.de. Сhecking post requests using the example of one selected car, as well as checking post requests on the login form page
 
 ## Content
 - [Technologies](#technologies)
@@ -53,6 +41,9 @@ To start testing, you need to install the following dependencies:
 ## Testing
 1. Status Code = 200
 2. Status Code = 201, in body key: "adId" the value equal to the ID of the selected car
+3. Status Code = 400, in body equal to "field": "email", "code": "account-exists",  "message": "Diese E-Mail-Adresse ist bereits registriert."
+4. Status Code = 400 in body equal to "field": "email", "code": "email-empty", "message": "Bitte geben Sie eine E-Mail-Adresse ein.", "field": "email", "code": "email-invalid", "message": "Die eingegebene E-Mail-Adresse ist ungültig.". 
+    
 
 ## Result
 Our tests are tested for functionality API
