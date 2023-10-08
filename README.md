@@ -16,7 +16,7 @@ Check that adId= id_car
 
 ## Content
 - [Technologies](#technologies)
-- [Getting started](#getting started)
+- [Getting started](#getting_started)
 - [Testing](#testing)
 - [Result](#result)
 
@@ -49,7 +49,7 @@ To start testing, you need to install the following dependencies:
     <scope>test</scope>
 </dependency>
 
-##[Testing](#testing)
+##Testing
 
 1. Status Code = 200
 2. Status Code = 201, in body key: "adId" the value equal to the ID of the selected car
