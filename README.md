@@ -28,7 +28,7 @@ Check that adId= id_car
 
 ## Getting started
 To start testing, you need to install the following dependencies:
-
+```
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -48,6 +48,7 @@ To start testing, you need to install the following dependencies:
     <version>5.3.2</version>
     <scope>test</scope>
 </dependency>
+```
 
 ## Testing
 1. Status Code = 200
