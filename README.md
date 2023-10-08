@@ -49,7 +49,10 @@ To start testing, you need to install the following dependencies:
     <scope>test</scope>
 </dependency>
 
-##Testing
-
+## Testing
 1. Status Code = 200
 2. Status Code = 201, in body key: "adId" the value equal to the ID of the selected car
+
+## Result
+Our tests are tested for functionality API
+   
